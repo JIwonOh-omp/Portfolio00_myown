@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body { display:flex; height:650px; font-family:'Montserrat',sans-serif; background:#f5f5f5; overflow:hidden; }
+
+.sidebar { width:260px; min-width:260px; background:#3a8dbb; padding:50px 30px; display:flex; flex-direction:column; gap:6px; box-shadow:3px 0 15px rgba(0,0,0,.2); }
+.logo { color:#fff; font-size:22px; font-weight:700; margin-bottom:30px; letter-spacing:1px; }
+.nav-link { color:#fff; padding:12px 16px; font-size:15px; font-weight:600; border-radius:6px; opacity:.8; }
+.nav-link.active { background:#fff176; color:#333; opacity:1; }
+
+.main { flex:1; display:flex; flex-direction:column; overflow:hidden; }
+.hero { height:220px; background:linear-gradient(135deg,#1a2a3a 0%,#2a3f55 100%); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px; }
+.hero-text { color:#fff176; font-size:26px; font-weight:700; letter-spacing:1px; }
+.hero-sub { color:#aac8e0; font-size:14px; }
+
+.content { flex:1; display:flex; }
+.about { flex:1; padding:28px; background:#fff; border-right:1px solid #eee; }
+.skills { flex:1; padding:28px; background:#f9f9f9; }
+.section-title { font-size:17px; font-weight:700; color:#3a8dbb; border-bottom:2px solid #fff176; padding-bottom:8px; margin-bottom:18px; }
+.info-item { font-size:13px; color:#555; margin-bottom:8px; }
+.info-item strong { color:#333; margin-right:6px; }
+.skill-label { display:flex; justify-content:space-between; font-size:13px; color:#444; margin-bottom:5px; }
+.progress-wrap { background:#e0e0e0; border-radius:10px; height:8px; margin-bottom:14px; }
+.progress-bar { background:#3a8dbb; height:8px; border-radius:10px; }
+
+.badge { display:inline-block; background:#fff176; color:#333; font-size:11px; font-weight:700; padding:3px 10px; border-radius:20px; margin-bottom:16px; }
+</style>
+</head>
+<body>
+<div class="sidebar">
+  <div class="logo">Jiwon Oh</div>
+  <div class="nav-link active">Home</div>
+  <div class="nav-link">About</div>
+  <div class="nav-link">Skills</div>
+  <div class="nav-link">Portfolio</div>
+</div>
+<div class="main">
+  <div class="hero">
+    <div class="hero-text">안녕하세요, 오지원입니다! :)</div>
+    <div class="hero-sub">AI 개발자를 꿈꿉니다</div>
+  </div>
+  <div class="content">
+    <div class="about">
+      <div class="badge">Option 1 — 하늘색 + 연노랑</div>
+      <div class="section-title">About</div>
+      <div class="info-item"><strong>직무:</strong>AI 개발자 준비중 &amp; 웹 퍼블리셔</div>
+      <div class="info-item"><strong>학력:</strong>숙명여자대학교 화공생명공학과</div>
+      <div class="info-item"><strong>Email:</strong>mangpa957@gmail.com</div>
+      <div class="info-item"><strong>GitHub:</strong>github.com/JIwonOh-omp</div>
+    </div>
+    <div class="skills">
+      <div class="section-title">Skills</div>
+      <div class="skill-label"><span>HTML</span><span>85%</span></div>
+      <div class="progress-wrap"><div class="progress-bar" style="width:85%"></div></div>
+      <div class="skill-label"><span>CSS</span><span>80%</span></div>
+      <div class="progress-wrap"><div class="progress-bar" style="width:80%"></div></div>
+      <div class="skill-label"><span>Python</span><span>65%</span></div>
+      <div class="progress-wrap"><div class="progress-bar" style="width:65%"></div></div>
+      <div class="skill-label"><span>Git / GitHub</span><span>75%</span></div>
+      <div class="progress-wrap"><div class="progress-bar" style="width:75%"></div></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
