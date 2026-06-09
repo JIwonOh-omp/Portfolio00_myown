@@ -102,7 +102,7 @@ body {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #f8c32b;
+  color: #f8a5c2;
 }
 
 .nav-menu a::before {
@@ -110,7 +110,7 @@ body {
   display: block;
   width: 14px;
   aspect-ratio: 1/1;
-  background: #f8c32b;
+  background: #f8a5c2;
   border-radius: 50%;
   position: absolute; 
   top: 25%;
@@ -266,7 +266,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #f2a000;
+  color: #d4547a;
 }
 
 .about .content ul {
@@ -333,7 +333,7 @@ section {
   width: 0;
   height: 100%;
   transition: 1.5s;
-  background-color: #f2a000;
+  background-color: #f8a5c2;
   border-radius: 0 100px 100px 0;
 }
 
@@ -368,7 +368,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #f8c32b;
+  color: #f8a5c2;
   font-weight: 600;
   background: #006f5f;
   border-radius: 100px;
@@ -414,17 +414,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(247, 162, 37, 0.75);
+  background: rgba(248, 165, 194, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(247, 162, 37, 0.95);
+  background: rgba(248, 165, 194, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #ffcc00;
+  border-left: 1px solid #f8a5c2;
 }
 
 .portfolio .portfolio-wrap:hover::before {
